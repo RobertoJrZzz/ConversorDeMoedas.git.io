@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/midia.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Freeman&family=Jersey+10&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="header">
+        <img src="/assets/images/coin-logo.png" class="img-header">
+
+        <h1 class="header-title">Conversor de Moedas</h1>
+    </div>
+
+    <div id="explication">
+        <div class="text-content">
+            <h1>Sobre o conversor</h1>
+            <p>Um conversor de moedas é uma ferramenta útil<br>
+                para converter o valor de uma moeda para outra<br>
+                com base nas taxas de câmbio atuais. Ele geralmente<br>
+                permite que os usuários convertam entre várias moedas,<br> 
+                como dólar, euro, real, iene e peso, facilitando a<br> 
+                compreensão do valor de uma quantia em diferentes contextos<br> 
+                monetários. Esses conversores podem ser acessados online,<br> 
+                por meio de aplicativos móveis ou mesmo integrados em sites<br> 
+                financeiros, fornecendo informações rápidas e precisas sobre<br> 
+                as taxas de câmbio em tempo real.</p>
+        </div>
+    </div>
+
+    <div id="main">
+    
+       <a href="/index.html"><img src="/assets/images/coin.gif" class="img-main"></a>
+
+        <h1 class="main-title">CONVERSOR</h1>
+    
+        <div class="main-cv">
+        <input type="number" placeholder="Insira o valor" id="value">
+
+        <select class="coin-01">
+            <option class="country" value="Dolar Americano">Dolar Americano</option>
+            <option class="country" value="Euro">Euro</option>
+            <option class="country" value="Real">Real</option>
+            <option class="country" value="Iene">Iene</option>
+            <option class="country" value="Peso">Peso</option>
+        </select>
+
+        <select class="coin-02">
+            <option class="country" value="Dolar Americano">Dolar Americano</option>
+            <option class="country" value="Euro">Euro</option>
+            <option class="country" value="Real">Real</option>
+            <option class="country" value="Iene">Iene</option>
+            <option class="country" value="Peso">Peso</option>
+        </select>
+
+        <a href="#" class="convert"><button class="btn-main" onclick="Conversor()">Converter</button></a>
+
+        <h1 class="main-title" id="result"></h1>
+        </div>
+
+    </div>
+
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
